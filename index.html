@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Interior Painter in Montreal | Maison One Peinture</title>
+<meta name="description" content="Premium interior painting in Montreal. Free in-home visit, itemized written quote, full prep, two coats and a final walkthrough.">
+<meta property="og:title" content="Interior Painter in Montreal | Maison One Peinture">
+<meta property="og:description" content="One standard, every room. Book a free in-home visit and get an itemized written quote before anything starts.">
+<meta property="og:type" content="website">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="alternate" hreflang="en" href="/"><link rel="alternate" hreflang="fr" href="/fr.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&amp;family=Hanken+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#ECE6DA}
+a{color:inherit}a:hover{opacity:.75}
+.ph{display:flex;align-items:center;justify-content:center;font:400 italic 20px/1.4 'Cormorant Garamond',Georgia,serif;text-align:center;padding:16px;box-sizing:border-box}
+.field{font:400 16px/1.4 'Hanken Grotesk',system-ui,sans-serif;background:#2A4157;border:0;border-bottom:1px solid #8C9AAB;padding:12px;width:100%;box-sizing:border-box;color:#F7F3EC}
+.field:focus{outline:none;border-bottom-color:#F7F3EC}
+.field option{color:#1E1D1B;background:#F7F3EC}
+.lbl{font:500 14px/1.3 'Hanken Grotesk',system-ui,sans-serif;color:#C9D2DC}
+summary{cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+@keyframes moFade{from{opacity:0}to{opacity:1}}
+@keyframes moRise{from{opacity:0;transform:translateY(28px) scale(.97)}to{opacity:1;transform:none}}
+@keyframes moSlide{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.mo-overlay{animation:moFade .45s ease-out both}
+.mo-dialog{animation:moRise .6s cubic-bezier(.2,.8,.2,1) .08s both}
+.mo-tab{animation:moSlide .4s ease-out both}
+@media (prefers-reduced-motion:reduce){.mo-overlay,.mo-dialog,.mo-tab{animation:moFade .2s linear both}}
+.ofield{font:400 15px/1.4 'Hanken Grotesk',system-ui,sans-serif;color:#1E1D1B;background:#F7F3EC;border:0;padding:12px 14px;width:220px;max-width:100%;box-sizing:border-box}
+.compare{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize}
+.navlinks{display:flex}
+@media (max-width:760px){.navlinks{display:none}}
+</style>
+
+</head>
+<body>
+
+<div style="font-family: 'Hanken Grotesk', system-ui, sans-serif; color: #1E1D1B; background: #ECE6DA">
+
+<!-- 10% OFFER POP-UP -->
+<div data-if="showOffer" style="display:contents">
+<div class="mo-overlay" style="position: fixed; inset: 0; z-index: 60; background: rgba(20,18,16,.62); display: flex; align-items: center; justify-content: center; padding: 16px; box-sizing: border-box">
+<div class="mo-dialog" role="dialog" aria-modal="true" aria-labelledby="offer-title" style="position: relative; width: 100%; max-width: 560px; max-height: calc(100vh - 32px); overflow: auto; background: #F7F3EC; color: #1E1D1B; box-shadow: 0 24px 64px rgba(0,0,0,.35)">
+<button type="button" data-action="dismissOffer" aria-label="Close" style="position: absolute; top: 8px; right: 8px; width: 44px; height: 44px; background: none; border: 0; cursor: pointer; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F7F3EC" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+<div style="background: #1F3346; color: #F7F3EC; padding: 44px 40px 36px; display: flex; flex-direction: column; gap: 14px">
+<div data-if="showTimer" style="display:contents"><p style="margin: 0; font-size: 14px; color: #C9D2DC">Offer ends in <strong style="font-weight: 600; color: #F7F3EC; font-variant-numeric: tabular-nums"><span data-bind="timer">10:00:00</span></strong></p></div>
+<h2 id="offer-title" style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: clamp(44px, 7vw, 64px); line-height: 1"><em>10% off</em> your project</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #E6EAEE">Leave your phone and email and we’ll take 10% off your painting project.</p>
+</div>
+<div data-if="showForm" style="display:contents">
+<form name="offer" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-submit="submitOffer" style="padding: 32px 40px 36px; display: flex; flex-direction: column; gap: 18px"><input type="hidden" name="form-name" value="offer"><input type="hidden" name="language" value="en"><p hidden><label>Leave empty <input name="bot-field"></label></p>
+<div style="display: flex; flex-direction: column; gap: 6px"><label for="o-phone" style="font-size: 14px; font-weight: 500">Phone</label><input class="ofield" id="o-phone" name="phone" type="tel" autocomplete="tel" required style="width: 100%; background: #FFFDF8; border: 1px solid #CFC6B4; padding: 14px"></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><label for="o-email" style="font-size: 14px; font-weight: 500">Email</label><input class="ofield" id="o-email" name="email" type="email" autocomplete="email" required style="width: 100%; background: #FFFDF8; border: 1px solid #CFC6B4; padding: 14px"></div>
+<label style="display: flex; align-items: flex-start; gap: 10px; font-size: 13px; line-height: 1.5; color: #4A463F"><input type="checkbox" name="marketing_consent" value="yes" required style="width: 18px; height: 18px; margin: 1px 0 0; flex: none"><span>Yes, Maison One Peinture can text and email me offers and updates. I can unsubscribe anytime. <a href="/privacy.html" style="color: #1F3346">Privacy policy</a></span></label>
+<button type="submit" style="background: #C77252; color: #1E1D1B; border: 0; padding: 18px 24px; font: 600 16px 'Hanken Grotesk', system-ui, sans-serif; cursor: pointer">Get my 10% off</button>
+<button type="button" data-action="dismissOffer" style="align-self: center; background: none; border: 0; padding: 10px; font: 400 14px 'Hanken Grotesk', system-ui, sans-serif; color: #4A463F; text-decoration: underline; cursor: pointer">No thanks</button>
+</form>
+</div>
+<div data-if="showDone" style="display:contents">
+<div style="padding: 32px 40px 36px; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; line-height: 1.2">You’re in. Your 10% off is locked in.</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #4A463F">Just mention it when you book your free consultation.</p>
+<button type="button" data-action="dismissOffer" style="align-self: flex-start; background: #1F3346; color: #F7F3EC; border: 0; padding: 16px 26px; font: 500 15px 'Hanken Grotesk', system-ui, sans-serif; cursor: pointer" data-goto="quote">Book my visit</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 10% OFFER: MINIMIZED TAB -->
+<div data-if="showMini" style="display:contents">
+<button class="mo-tab" type="button" data-action="reopenOffer" aria-label="Open your 10% off offer" style="position: fixed; right: 16px; bottom: 16px; z-index: 55; display: flex; align-items: center; gap: 14px; background: #1F3346; color: #F7F3EC; border: 0; padding: 14px 20px; box-shadow: 0 8px 24px rgba(0,0,0,.28); cursor: pointer; font: 500 15px 'Hanken Grotesk', system-ui, sans-serif">
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: 24px; line-height: 1">10% off</span>
+<span aria-hidden="true" style="width: 1px; align-self: stretch; background: rgba(247,243,236,.3)"></span>
+<span style="font-variant-numeric: tabular-nums"><span data-bind="timer">10:00:00</span></span>
+<span style="text-decoration: underline; text-underline-offset: 3px">Claim</span>
+</button>
+</div>
+
+<!-- HERO -->
+<section id="top" style="position: relative; min-height: 800px; background: #4A4540; color: #F7F3EC; display: flex; flex-direction: column">
+<img src="/hero.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 60% 40%; display: block">
+<div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(20,18,16,.4) 0%, rgba(20,18,16,0) 22%, rgba(20,18,16,0) 40%, rgba(20,18,16,.7) 100%)"></div>
+<header style="position: relative; width: 100%; max-width: 1320px; margin: 0 auto; padding: 28px 24px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px">
+<a href="#top" style="text-decoration: none; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; font-weight: 500; letter-spacing: .02em">Maison One Peinture</a>
+<nav style="display: flex; align-items: center; gap: 28px; font-size: 15px">
+<span class="navlinks" style="gap: 28px"><a href="#work" style="text-decoration: none">Our work</a><a href="#founder" style="text-decoration: none">About</a><a href="#process" style="text-decoration: none">Process</a></span>
+<span style="display: flex; gap: 2px; font-size: 14px"><a href="/fr.html" lang="fr" style="text-decoration: none; opacity: .7; padding: 12px 4px">FR</a><a href="/" aria-current="page" style="text-decoration: underline; text-underline-offset: 4px; padding: 12px 4px">EN</a></span>
+<a href="#quote" style="text-decoration: none; border: 1px solid #F7F3EC; padding: 13px 18px; font-weight: 500; white-space: nowrap">Free consultation</a>
+</nav>
+</header>
+<div style="flex: 1 1 auto; min-height: 120px"></div>
+<div style="position: relative; width: 100%; max-width: 1320px; margin: 0 auto; padding: 0 24px 72px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 32px">
+<h1 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: clamp(52px, 7.5vw, 116px); line-height: .98; letter-spacing: -.01em; max-width: 900px">One standard.<br><em>Every room.</em></h1>
+<div style="display: flex; flex-direction: column; gap: 24px; max-width: 360px">
+<p style="margin: 0; font-size: 18px; line-height: 1.6">Premium interior painting across Montreal. We see the space first, then give you a written quote before anything starts.</p>
+<a href="#quote" style="align-self: flex-start; text-decoration: none; background: #F7F3EC; color: #1E1D1B; padding: 17px 28px; font-weight: 500; font-size: 16px">Book a free in-home visit</a>
+</div>
+</div>
+</section>
+
+<!-- PROOF: before/after + reviews -->
+
+
+<!-- STANDARD -->
+<section id="work" style="background: #ECE6DA">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 24px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px 24px">
+<h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: clamp(40px, 4.8vw, 72px); line-height: 1.02">Recent <em>work</em></h2>
+<a href="#quote" style="text-decoration: none; background: #1F3346; color: #F7F3EC; padding: 17px 28px; font-weight: 500; font-size: 16px">Get a quote like this</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: 24px">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<img src="/work-living-dining.jpg" alt="Freshly painted living and dining room with crown moulding and a bright window" style="width: 100%; aspect-ratio: 2 / 1; object-fit: cover; display: block">
+<figcaption style="font-size: 14px; color: #4A463F">Living &amp; dining room · walls, ceiling and crown moulding · Westmount</figcaption>
+</figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<img src="/work-dining-wall.jpg" alt="Smooth light grey dining room wall next to a fluted white pilaster" style="width: 100%; aspect-ratio: 2 / 1; object-fit: cover; display: block">
+<figcaption style="font-size: 14px; color: #4A463F">Dining room feature wall · cut-in around pilaster and crown · Westmount</figcaption>
+</figure>
+</div>
+</div>
+</section><section style="background: #F7F3EC">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr)); gap: 48px 104px">
+<div style="display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: clamp(40px, 4.8vw, 72px); line-height: 1.02">What you won’t find <em>after we leave</em></h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.65; color: #4A463F; max-width: 440px">Most of a good paint job happens before the paint. We fill, sand and prime every surface, cover everything we’re not painting, and cut every line by hand.</p>
+<a href="#quote" style="align-self: flex-start; text-decoration: none; background: #1F3346; color: #F7F3EC; padding: 17px 28px; font-weight: 500; font-size: 16px">Book a free in-home visit</a>
+</div>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(28px, 2.8vw, 40px); line-height: 1.15">
+<li style="padding: 20px 0; border-bottom: 1px solid #CFC6B4; text-decoration: line-through; text-decoration-color: #C77252; text-decoration-thickness: 1.5px">Paint on your outlets</li>
+<li style="padding: 20px 0; border-bottom: 1px solid #CFC6B4; text-decoration: line-through; text-decoration-color: #C77252; text-decoration-thickness: 1.5px">Wavy ceiling lines</li>
+<li style="padding: 20px 0; border-bottom: 1px solid #CFC6B4; text-decoration: line-through; text-decoration-color: #C77252; text-decoration-thickness: 1.5px">Drips on the trim</li>
+<li style="padding: 20px 0; border-bottom: 1px solid #CFC6B4; text-decoration: line-through; text-decoration-color: #C77252; text-decoration-thickness: 1.5px">Patches that show through</li>
+<li style="padding: 20px 0; border-bottom: 1px solid #CFC6B4; text-decoration: line-through; text-decoration-color: #C77252; text-decoration-thickness: 1.5px">Dust on your floors</li>
+</ul>
+</div>
+</section>
+
+<!-- FOUNDER: Sage -->
+<section id="founder" style="background: #8E9A86; color: #1E1D1B">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 64px 80px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 32px; max-width: 860px">
+<p style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(30px, 3.2vw, 46px); line-height: 1.2; font-style: italic">“I do your consultation myself, and I walk every room with you before we call the job done. If something isn’t right, you’re talking to the person who gets it fixed.”</p>
+<div style="display: flex; flex-direction: column; gap: 4px; font-size: 15px">
+<span style="font-weight: 600">Majd</span>
+<span>Founder, Maison One Peinture</span>
+</div>
+<a href="#quote" style="align-self: flex-start; text-decoration: none; background: #1E1D1B; color: #F7F3EC; padding: 17px 28px; font-weight: 500; font-size: 16px">Book your consultation with Majd</a>
+</div>
+</div>
+</section>
+
+<!-- PALETTE -->
+<section style="background: #ECE6DA">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 24px; display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
+<h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: clamp(40px, 4.8vw, 72px); line-height: 1.02; max-width: 720px">Not sure on colour? <em>We bring the chips to you.</em></h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.65; max-width: 380px; color: #4A463F">Colour guidance is part of every consultation. Start from our house palette or bring your own — we test it on your walls, in your light.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); gap: 20px; align-items: start">
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08)">
+<div style="aspect-ratio: 3 / 4; background: #E4DCCC"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Plaster</span><span style="font-size: 13px; color: #4A463F">MO-01</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08); margin-top: 28px">
+<div style="aspect-ratio: 3 / 4; background: #8E9A86"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Sage Smoke</span><span style="font-size: 13px; color: #4A463F">MO-02</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08)">
+<div style="aspect-ratio: 3 / 4; background: #1F3346"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Deep Harbour</span><span style="font-size: 13px; color: #4A463F">MO-03</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08); margin-top: 28px">
+<div style="aspect-ratio: 3 / 4; background: #C77252"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Clay Dust</span><span style="font-size: 13px; color: #4A463F">MO-04</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08)">
+<div style="aspect-ratio: 3 / 4; background: #3B3631"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Walnut</span><span style="font-size: 13px; color: #4A463F">MO-05</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08); margin-top: 28px">
+<div style="aspect-ratio: 3 / 4; background: #C9CFD0"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Fog</span><span style="font-size: 13px; color: #4A463F">MO-06</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08)">
+<div style="aspect-ratio: 3 / 4; background: #5E6B4E"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Moss</span><span style="font-size: 13px; color: #4A463F">MO-07</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08); margin-top: 28px">
+<div style="aspect-ratio: 3 / 4; background: #1B1F2A"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Ink</span><span style="font-size: 13px; color: #4A463F">MO-08</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08)">
+<div style="aspect-ratio: 3 / 4; background: #8A4B45"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Rosewood</span><span style="font-size: 13px; color: #4A463F">MO-09</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08); margin-top: 28px">
+<div style="aspect-ratio: 3 / 4; background: #D8C9AE"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Oat</span><span style="font-size: 13px; color: #4A463F">MO-10</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08)">
+<div style="aspect-ratio: 3 / 4; background: #5B7186"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Slate Blue</span><span style="font-size: 13px; color: #4A463F">MO-11</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08); margin-top: 28px">
+<div style="aspect-ratio: 3 / 4; background: #B8893A"></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">Ochre</span><span style="font-size: 13px; color: #4A463F">MO-12</span></div>
+</div>
+<div style="background: #F7F3EC; padding: 12px 12px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 1px 2px rgba(30,29,27,.08)">
+<div style="aspect-ratio: 3 / 4; border: 1px dashed #B9AF9C; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; padding: 12px; box-sizing: border-box"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 44px; line-height: 1; color: #1E1D1B">+</span><span style="font-size: 14px; line-height: 1.4; color: #4A463F">Any colour,<br>any brand</span></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px">And more</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" style="background: #F7F3EC">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 24px; display: flex; flex-direction: column; gap: 48px">
+<h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: clamp(40px, 4.8vw, 72px); line-height: 1.02; max-width: 800px">Five steps, <em>no surprises</em></h2>
+<ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
+<li style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 8px 48px; padding: 28px 0; border-top: 1px solid #1E1D1B; align-items: baseline">
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(28px, 2.8vw, 40px)"><em style="color: #9A4F33">i.</em> You reach out</span>
+<span style="font-size: 17px; line-height: 1.6; color: #4A463F">Fill in the form below. We reply within 15 minutes to book a visit.</span>
+</li>
+<li style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 8px 48px; padding: 28px 0; border-top: 1px solid #1E1D1B; align-items: baseline">
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(28px, 2.8vw, 40px)"><em style="color: #9A4F33">ii.</em> We visit</span>
+<span style="font-size: 17px; line-height: 1.6; color: #4A463F">We walk every room, check every surface and test colours on your walls. Free.</span>
+</li>
+<li style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 8px 48px; padding: 28px 0; border-top: 1px solid #1E1D1B; align-items: baseline">
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(28px, 2.8vw, 40px)"><em style="color: #9A4F33">iii.</em> A written quote</span>
+<span style="font-size: 17px; line-height: 1.6; color: #4A463F">Itemized, with a start date. Nothing starts until you sign off.</span>
+</li>
+<li style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 8px 48px; padding: 28px 0; border-top: 1px solid #1E1D1B; align-items: baseline">
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(28px, 2.8vw, 40px)"><em style="color: #9A4F33">iv.</em> We paint</span>
+<span style="font-size: 17px; line-height: 1.6; color: #4A463F">Protect, prep, two coats of premium paint, clean up every day.</span>
+</li>
+<li style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 8px 48px; padding: 28px 0; border-top: 1px solid #1E1D1B; border-bottom: 1px solid #1E1D1B; align-items: baseline">
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(28px, 2.8vw, 40px)"><em style="color: #9A4F33">v.</em> We walk it together</span>
+<span style="font-size: 17px; line-height: 1.6; color: #4A463F">Anything that isn’t right gets fixed before we leave. Backed by a 3-year workmanship warranty.</span>
+</li>
+</ol>
+<a href="#quote" style="align-self: flex-start; text-decoration: none; background: #1F3346; color: #F7F3EC; padding: 17px 28px; font-weight: 500; font-size: 16px">Start with step one</a>
+</div>
+</section>
+
+<!-- QUOTE: Deep Harbour -->
+<section id="quote" style="background: #1F3346; color: #E6EAEE">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 56px 72px">
+<div style="display: flex; flex-direction: column; gap: 28px">
+<h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: clamp(44px, 5.6vw, 84px); line-height: 1; color: #F7F3EC">Book your <em>free visit</em></h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.65; max-width: 440px">One package for every home: consultation, colour guidance, full prep, furniture and floor protection, two coats of premium paint, daily cleanup and a final walkthrough. The price depends only on your space.</p>
+<div style="display: flex; flex-direction: column; gap: 6px; font-size: 16px">
+<span>Or call <a href="tel:+14383561378" style="color: #F7F3EC">438 356 1378</a></span>
+<a href="mailto:majdalbarbarawi982@gmail.com" style="color: #F7F3EC">majdalbarbarawi982@gmail.com</a>
+</div>
+</div>
+<form name="quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-submit="submitQuote" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 24px 28px"><input type="hidden" name="form-name" value="quote"><input type="hidden" name="language" value="en"><p hidden><label>Leave empty <input name="bot-field"></label></p>
+<div style="display: flex; flex-direction: column; gap: 6px"><label class="lbl" for="q-name">Name</label><input class="field" id="q-name" name="name" type="text" autocomplete="name"></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><label class="lbl" for="q-phone">Phone</label><input class="field" id="q-phone" name="phone" type="tel" autocomplete="tel"></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><label class="lbl" for="q-email">Email</label><input class="field" id="q-email" name="email" type="email" autocomplete="email"></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><label class="lbl" for="q-city">City</label><input class="field" id="q-city" name="city" type="text"></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><label class="lbl" for="q-rooms">Rooms</label><select class="field" id="q-rooms" name="rooms"><option>1–2 rooms</option><option>3–5 rooms</option><option>6+ rooms</option><option>Whole home</option></select></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><label class="lbl" for="q-when">Timing</label><select class="field" id="q-when" name="timing"><option>As soon as possible</option><option>Within a month</option><option>1–3 months</option><option>Just planning</option></select></div>
+<div style="grid-column: 1 / -1; display: flex; flex-direction: column; gap: 6px"><label class="lbl" for="q-msg">Anything else (optional)</label><textarea class="field" id="q-msg" name="message" rows="3"></textarea></div>
+<p style="grid-column: 1 / -1; margin: 0; font-size: 14px; line-height: 1.5; color: #C9D2DC">We use your details only to reply to your request and plan your project. See our <a href="/privacy.html" style="color: #F7F3EC">privacy policy</a>.</p>
+<button type="submit" style="grid-column: 1 / -1; justify-self: start; background: #F7F3EC; color: #1E1D1B; border: 0; padding: 18px 32px; font: 500 16px 'Hanken Grotesk', system-ui, sans-serif; cursor: pointer">Request my visit</button>
+</form>
+</div>
+</section>
+
+<!-- FAQ -->
+<section style="background: #ECE6DA">
+<div style="max-width: 1320px; margin: 0 auto; padding: 112px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 40px 104px">
+<div style="display: flex; flex-direction: column; gap: 24px; align-items: flex-start">
+<h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: clamp(40px, 4.8vw, 72px); line-height: 1.02">Common <em>questions</em></h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.65; color: #4A463F">Don’t see yours? Ask us at your free visit.</p>
+<a href="#quote" style="text-decoration: none; background: #1F3346; color: #F7F3EC; padding: 17px 28px; font-weight: 500; font-size: 16px">Book a free visit</a>
+</div>
+<div style="display: flex; flex-direction: column; border-top: 1px solid #1E1D1B">
+<details style="border-bottom: 1px solid #CFC6B4; padding: 24px 0"><summary style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px">How much does it cost?</summary><p style="margin: 14px 0 0; font-size: 16px; line-height: 1.65; color: #4A463F">It depends on the size and condition of the space, so we quote after the free visit. Your written quote is itemized.</p></details>
+<details style="border-bottom: 1px solid #CFC6B4; padding: 24px 0"><summary style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px">Do I need to move furniture?</summary><p style="margin: 14px 0 0; font-size: 16px; line-height: 1.65; color: #4A463F">No. We move it, cover it and put it back.</p></details>
+<details style="border-bottom: 1px solid #CFC6B4; padding: 24px 0"><summary style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px">How long does a project take?</summary><p style="margin: 14px 0 0; font-size: 16px; line-height: 1.65; color: #4A463F">A typical 3½ takes about 2 days, prep included. Your quote gives exact start and finish dates.</p></details>
+<details style="border-bottom: 1px solid #CFC6B4; padding: 24px 0"><summary style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px">Do you paint exteriors?</summary><p style="margin: 14px 0 0; font-size: 16px; line-height: 1.65; color: #4A463F">No — interiors only.</p></details>
+<details style="border-bottom: 1px solid #CFC6B4; padding: 24px 0"><summary style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px">What does the warranty cover?</summary><p style="margin: 14px 0 0; font-size: 16px; line-height: 1.65; color: #4A463F">For 3 years, we fix any peeling, bubbling, cracking or adhesion problem caused by our prep or painting, at no cost. It doesn’t cover normal wear, impacts and scuffs, water or humidity damage, or touch-ups done by you or anyone else.</p></details>
+<details style="border-bottom: 1px solid #CFC6B4; padding: 24px 0"><summary style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px">Where do you work?</summary><p style="margin: 14px 0 0; font-size: 16px; line-height: 1.65; color: #4A463F">Anywhere on the island of Montreal — from the West Island to the East End.</p></details>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="background: #ECE6DA; border-top: 1px solid #CFC6B4; color: #4A463F">
+<div style="max-width: 1320px; margin: 0 auto; padding: 56px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; font-size: 14px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 34px; font-weight: 500; color: #1E1D1B">Maison One Peinture</span>
+<span>Interior painting · Montreal</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span>438 356 1378 · majdalbarbarawi982@gmail.com</span>
+<span style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px"><a href="/privacy.html">Privacy policy</a> · <button type="button" data-action="openCookies" style="background: none; border: 0; padding: 0; font: inherit; color: inherit; text-decoration: underline; cursor: pointer">Cookie settings</button> · <a href="/fr.html" lang="fr">Français</a> · © 2026 Maison One Peinture</span>
+</div>
+</div>
+</footer>
+
+<!-- COOKIE BANNER -->
+<div data-if="showBanner" style="display:contents">
+<div role="region" aria-label="Cookie consent" style="position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 50; display: flex; justify-content: center; pointer-events: none">
+<div style="pointer-events: auto; width: 100%; max-width: 640px; box-sizing: border-box; background: #F7F3EC; color: #1E1D1B; box-shadow: 0 8px 32px rgba(30,29,27,.25); padding: 24px; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-size: 15px; line-height: 1.6">We’d like to use cookies to measure visits and improve our ads — only with your permission. The site works fully either way. <a href="/privacy.html" style="color: #1F3346">Privacy policy</a></p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<button type="button" data-action="acceptCookies" style="background: #1F3346; color: #F7F3EC; border: 0; padding: 14px 24px; font: 500 15px 'Hanken Grotesk', system-ui, sans-serif; cursor: pointer">Accept</button>
+<button type="button" data-action="refuseCookies" style="background: #1F3346; color: #F7F3EC; border: 0; padding: 14px 24px; font: 500 15px 'Hanken Grotesk', system-ui, sans-serif; cursor: pointer">Refuse</button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
