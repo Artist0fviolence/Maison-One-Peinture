@@ -35,7 +35,12 @@
     document.querySelectorAll('[data-if]').forEach(function (el) { el.style.display = v[el.dataset.if] ? 'contents' : 'none'; });
     document.querySelectorAll('[data-bind="timer"]').forEach(function (el) { el.textContent = timer(); });
     var tab = document.querySelector('.mo-tab');
-    if (tab) tab.style.bottom = (st.consent === null ? 200 : 16) + 'px';
+    if (tab) {
+      // Sit just above the cookie banner while it is open, whatever its height.
+      var banner = st.consent === null && document.querySelector('[data-if="showBanner"] [role="region"]');
+      var top = banner ? banner.getBoundingClientRect().top : 0;
+      tab.style.bottom = (top > 0 ? Math.round(window.innerHeight - top + 12) : 16) + 'px';
+    }
   }
 
   var actions = {
@@ -83,5 +88,8 @@
   }
   tick();
   setInterval(tick, 1000);
-  setTimeout(function () { st.ready = true; render(); }, POPUP_DELAY_MS);
+  // On phones, a full-screen pop-up hurts Google rankings (intrusive interstitials),
+  // so phones get the small corner tab instead; tapping it opens the full offer.
+  var phone = window.matchMedia && window.matchMedia('(max-width: 760px)').matches;
+  setTimeout(function () { st.ready = true; if (phone) st.dismissed = true; render(); }, POPUP_DELAY_MS);
 })();
